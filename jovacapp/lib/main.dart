@@ -5,6 +5,7 @@ import 'package:jovacapp/screens/food_menu.dart';
 //import 'screens/Image_card.dart';
 //import 'screens/stack_widget.dart';
 import 'screens/food_menu.dart';
+import 'screens/cafe_ordering_screen.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
       //home: const ProfileScreen(),
       //home: const ImageCard(),
       //home: const StackWidget(),
-      home: const FoodMenu(),
+      //home: const FoodMenu(),
+      home: CafeOrderingScreen(),
     );
   }
 }
