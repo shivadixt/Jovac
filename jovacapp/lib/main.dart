@@ -8,7 +8,8 @@ import 'package:flutter/material.dart';
 //import 'screens/stack_widget.dart';
 //import 'screens/home_screen.dart';
 //import 'screens/edit_course_screen.dart';
-import 'screens/college_portal_screen.dart';
+//import 'screens/college_portal_screen.dart';
+import 'screens/student_registration_form.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -18,8 +19,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'College Student Portal',
-      home: const CollegePortalScreen(),
+      title: 'Student Registration Form',
+      home: const StudentRegistrationForm(),
+      //home: const CollegePortalScreen(),
       //home: const HomeScreen(),
       //home: const StudentIdCardScreen(),
       //home: const ProfileScreen(),
