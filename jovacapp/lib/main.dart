@@ -12,7 +12,8 @@ import 'package:flutter/material.dart';
 //import 'screens/student_registration_form.dart';
 //import 'screens/student_info_portal.dart';
 //import 'screens/student_assignment_portal.dart';
-import 'screens/student_placement_registration.dart';
+//import 'screens/student_placement_registration.dart';
+import 'screens/hive_student_crud.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -22,8 +23,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Student Placement Registration',
-      home: const StudentPlacementRegistrationScreen(),
+      title: 'Hive CRUD Students',
+      home: const HiveStudentCrudScreen(),
+      //home: const StudentPlacementRegistrationScreen(),
       //home: const StudentAssignmentPortalScreen(),
       //home: const StudentInfoPortalScreen(),
       //home: const StudentRegistrationForm(),
