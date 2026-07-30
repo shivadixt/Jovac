@@ -11,7 +11,8 @@ import 'package:flutter/material.dart';
 //import 'screens/college_portal_screen.dart';
 //import 'screens/student_registration_form.dart';
 //import 'screens/student_info_portal.dart';
-import 'screens/student_assignment_portal.dart';
+//import 'screens/student_assignment_portal.dart';
+import 'screens/student_placement_registration.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -21,8 +22,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Student Assignment Portal',
-      home: const StudentAssignmentPortalScreen(),
+      title: 'Student Placement Registration',
+      home: const StudentPlacementRegistrationScreen(),
+      //home: const StudentAssignmentPortalScreen(),
       //home: const StudentInfoPortalScreen(),
       //home: const StudentRegistrationForm(),
       //home: const CollegePortalScreen(),
