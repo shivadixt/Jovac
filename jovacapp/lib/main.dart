@@ -6,21 +6,21 @@ import 'package:flutter/material.dart';
 //import 'screens/profile_screen.dart';
 //import 'screens/Image_card.dart';
 //import 'screens/stack_widget.dart';
-import 'screens/home_screen.dart';
-import 'screens/edit_course_screen.dart';
-
+//import 'screens/home_screen.dart';
+//import 'screens/edit_course_screen.dart';
+import 'screens/college_portal_screen.dart';
 void main() {
   runApp(const MyApp());
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Student Information Navigator',
-      home: const HomeScreen(),
+      title: 'College Student Portal',
+      home: const CollegePortalScreen(),
+      //home: const HomeScreen(),
       //home: const StudentIdCardScreen(),
       //home: const ProfileScreen(),
       //home: const ImageCard(),
@@ -28,12 +28,12 @@ class MyApp extends StatelessWidget {
       //home: const FoodMenu(),
       //home: CafeOrderingScreen(),
       //home: UserPreferencesScreen(),
-      routes: {
-        '/editCourse': (context) {
-          final course = ModalRoute.of(context)!.settings.arguments as String? ?? 'Flutter';
-          return EditCourseScreen(initialCourse: course);
-        },
-      },
+      // routes: {
+      //   '/editCourse': (context) {
+      //     final course = ModalRoute.of(context)!.settings.arguments as String? ?? 'Flutter';
+      //     return EditCourseScreen(initialCourse: course);
+      //   },
+      // },
     );
   }
 }
