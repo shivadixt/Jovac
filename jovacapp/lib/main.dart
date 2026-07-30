@@ -13,7 +13,8 @@ import 'package:flutter/material.dart';
 //import 'screens/student_info_portal.dart';
 //import 'screens/student_assignment_portal.dart';
 //import 'screens/student_placement_registration.dart';
-import 'screens/hive_student_crud.dart';
+//import 'screens/hive_student_crud.dart';
+import 'screens/registration_screen.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -23,8 +24,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Hive CRUD Students',
-      home: const HiveStudentCrudScreen(),
+      title: 'Student Registration System (SQLite)',
+      home: const RegistrationScreen(),
+      //home: const HiveStudentCrudScreen(),
       //home: const StudentPlacementRegistrationScreen(),
       //home: const StudentAssignmentPortalScreen(),
       //home: const StudentInfoPortalScreen(),
